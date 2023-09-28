@@ -1,0 +1,80 @@
+body {
+    margin-top: 0;
+    color: black;
+    background-color: white;
+    margin-right: 0px;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+.header {
+    display: flex;
+    height: 90px;
+    background-color: white;
+    color: black;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header div {
+	width: 150px;
+}
+.header .logo{
+    width: 180px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    padding-left: 10px;
+    border-radius: 2px;
+	margin-left: 10px;
+}
+.header a{
+	text-decoration: none;
+	color: black;
+}
+.header .top:hover{
+	text-decoration: none;
+	background-color: black;
+	color: white;
+}
+.body {
+    margin-top: 51px;
+    padding-left: 10px;
+	padding-right: 10px;
+	height: 800px;
+}
+.body img {
+    height: 300px;
+}
+body p {
+    text-align: justify;
+    justify-content: justify;
+    font-family: arial;
+}
+.body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+.img:hover {
+    cursor: pointer;
+}
+.footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+	color: white;
+	left: 0px;
+	padding-bottom: 0px;
+	width: 100%;
+}
+.footer .ctto{
+	height: 10px;
+	padding-top: 20px;
+}
+.footer .year {
+	height: 20px;
+	padding-top: 20px;
+}
