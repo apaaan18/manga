@@ -39,7 +39,7 @@ body {
     font-size: 50px;
     padding-left: 10px;
     border-radius: 2px;
-	margin-left: 10px;
+	margin-left: 50px;
 }
 header ,.home, .trending, .menu{
     width: 100px;
@@ -165,10 +165,15 @@ header ,.home, .trending, .menu{
 	padding-top: 30px;
 }
 /*FOOTER*/
-.footer {
+footer{
 	display: flex;
 	height: 100px;
 	color: gray;
 	justify-content: center;
 	align-items: center;
+}
+/*Demon Slayer Code*/
+.anime_summary .demon-slayer {
+			height: 300px;
+			width: 205px;
 }
