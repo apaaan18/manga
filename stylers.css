@@ -30,7 +30,6 @@ body {
 }
 .header .top:hover{
 	text-decoration: none;
-	background-color: black;
 	color: white;
 }
 .header .logo{
@@ -146,7 +145,7 @@ header ,.home, .trending, .menu{
 	padding-top: 40px;
 	color: #383838;
 }
-.anime_summary .summary_jujutsu{
+.summary_jujutsu{
 	font-size: 23px;
 	margin-left: 90px;
 	padding-top: 40px;
