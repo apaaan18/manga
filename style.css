@@ -77,7 +77,7 @@ body p {
 	font-weight: bold;
 }
 /*FOOTER*/
-footer {
+.footer {
 	display: flex;
 	height: 100px;
 	color: gray;

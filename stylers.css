@@ -146,6 +146,12 @@ header ,.home, .trending, .menu{
 	padding-top: 40px;
 	color: #383838;
 }
+.summary_jujutsu{
+	font-size: 23px;
+	margin-left: 90px;
+	padding-top: 40px;
+	color: #383838;
+}
 .anime_summary p{
 	padding-left: 15px;
 	text-align: justify;
@@ -164,6 +170,9 @@ header ,.home, .trending, .menu{
 	padding-left: 80px;
 	padding-top: 30px;
 }
+.anime_summary .naruto_image {
+	height: 290px;
+}
 /*FOOTER*/
 footer{
 	display: flex;
@@ -176,4 +185,7 @@ footer{
 .anime_summary .demon-slayer {
 			height: 300px;
 			width: 205px;
+}
+.anime_summary .jujutsu_image {
+	height: 280px;
 }
